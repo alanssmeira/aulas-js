@@ -1,2 +1,2 @@
 # aulas-js
- Atividades de JavaScript allan
+ Atividades de JavaScript Alan
