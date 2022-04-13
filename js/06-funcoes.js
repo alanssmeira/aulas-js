@@ -72,9 +72,20 @@ linha();
     return resultado;
 }; */
 
+
 // Quando uma função tem apenas 1 parâmetro (numero) os parênteses podem ser removidos
 // Retorno IMPLÍCITO (remove {} e return)
 const dobra = numero => numero * 2
 
 console.log(dobra(10));
 console.log(dobra(150));
+
+let nota1 = 8.5;
+let nota2 = 7.4;
+
+// Com mais de 1 parâmetro é necessário parênteses
+// O return segue implícito
+const calculaMedia = (n1, n2) => (n1 + n2) / 2;
+
+// Obs.: se não tem parâmetros, também precisa usar ()
+const linha2 = () => console.log("***********")
