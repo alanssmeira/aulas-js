@@ -102,5 +102,5 @@ formulario.addEventListener("submit", function(event){
     // Devolvendo o foco (cursor) para o campo nome
     campoNome.focus();
 
-    // Dissolver a atual função em várias funções dedicadas
+    //  *** DESAFIO *** Dissolver a atual função em várias funções dedicadas
 });
