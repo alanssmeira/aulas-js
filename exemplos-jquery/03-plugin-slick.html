@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Plugin Slick Slider</title>
-<style>
-    body { background-color: lightblue; }  
-    #slider {
-        margin: auto;
-        width: 549px;
-    }
-</style>
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plugin Slick Slider</title>
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        #slider {
+            margin: auto;
+            width: 80%;
+        }
+    </style>
+
 </head>
-   
+
 <body>
-    <h1>Plugin Slick Slider</h1>    
+    <h1>Plugin Slick Slider</h1>
     <hr>
     <p><i>Informações gerais:</i> <a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a></p>
     <hr>
@@ -33,9 +41,20 @@
             <p>Adoro paçoca!</p>
         </div>
     </div>
-</div>    
+    </div>
 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#slider').slick({
+                autoplay: true,
+                autoplaySpeed: 7500
+            });
+        });
+    </script>
 
 </body>
-    
+
 </html>
